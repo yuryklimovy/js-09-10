@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="" charset="utf-8"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="js/jquery.jcarousel.js"></script>
+  <script src="js/jquery.selectbox-0.6.1.js" charset="utf-8"></script>
+  <script src="js/script.js" charset="utf-8"></script>
+  <script src="js/jquery.checkbox.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jquery.selectbox.css">
+</head>
+
+<body>
+  <h1>карусель</h1>
+  <div class="wrap_jcarousel">
+    <div class="jcarousel">
+      <ul>
+        <li><img src="img_carusel/img1.jpg" alt="" /></li>
+        <li><img src="img_carusel/img2.jpg" alt="" /></li>
+        <li><img src="img_carusel/img3.jpg" alt="" /></li>
+      </ul>
+      <a class="jcarousel-prev" href="#">
+        <</a>
+          <a class="jcarousel-next" href="#">></a>
+          <div class="jcarousel-pagination" data-jcarouselpagination="true">
+
+          </div>
+    </div>
+  </div>
+  <h1>select</h1>
+  <div>
+    <select class="" name="">
+      <option value="option1">option1</option>
+      <option value="option2">option2</option>
+      <option value="option3">option3</option>
+    </select>
+  </div>
+  <h1>checkbox jquery</h1>
+  <form action="#">
+    <div>
+      <label for="ch1">label 1</label>
+      <span class="niceCheck"><input type="checkbox" name="ch1" id="ch1"/></span>
+    <div>
+      <label for="ch2">label 2</label>
+      <span class="niceCheck"><input type="checkbox" checked="checked" name="ch2" id="ch2"/></span>
+    </div>
+    <div>
+      <label for="ch3">label 3</label>
+      <span class="niceCheck"><input type="checkbox" name="ch3" id="ch3" checked="checked" disabled="disabled"/></span>
+    </div>
+  </form>
+  <h1>checkbox css</h1>
+  <form action="#">
+    <div>
+      <input class="cssInput" type="checkbox" name="ch4" id="ch4"/>
+      <label class="cssLabel" for="ch4">label 1</label>
+    <div>
+      <input class="cssInput" type="checkbox" checked="checked" name="ch5" id="ch5"/>
+      <label class="cssLabel" for="ch5">label 2</label>
+    </div>
+    <div>
+      <input class="cssInput" type="checkbox" name="ch6" id="ch6" checked="checked" disabled="disabled"/></span>
+      <label class="cssLabel" for="ch6">label 3</label>
+    </div>
+  </form>
+</body>
+
+</html>
